@@ -35,15 +35,15 @@ A parallax scrolling website built with HTML, CSS and JavaScript.
 
  Currency Exchanger
 Converts currencies using JavaScript.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/4-%20currency%20exchanger/
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/3-%20currency%20exchanger/
 
  Tic Tac Toe
 A simple interactive Tic Tac Toe game built with JavaScript.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20tic%20tac%20toe/
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/5-%20tic%20tac%20toe/
 
  To-Do List
 Task management app that lets users add and delete tasks.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/7-%20todo%20list/
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20todo%20list/
 
 🛠️ Technologies Used
 HTML5
