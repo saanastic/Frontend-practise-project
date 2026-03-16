@@ -27,7 +27,23 @@ b) Currency Exchanger
 c) Rock Paper Scissors Game
 d) Tic Tac Toe Game
 e) To-Do List App
-f) Digital Clock
+
+Featured Projects
+ Moonlist Parallax Website
+A parallax scrolling website built with HTML, CSS and JavaScript.
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/2-%20moonlist/
+
+ Currency Exchanger
+Converts currencies using JavaScript.
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/4-%20currency%20exchanger/
+
+ Tic Tac Toe
+A simple interactive Tic Tac Toe game built with JavaScript.
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20tic%20tac%20toe/
+
+ To-Do List
+Task management app that lets users add and delete tasks.
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/7-%20todo%20list/
 
 🛠️ Technologies Used
 HTML5
