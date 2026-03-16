@@ -31,20 +31,19 @@ e) To-Do List App
 Featured Projects
  Moonlist Parallax Website
 A parallax scrolling website built with HTML, CSS and JavaScript.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/2-%20moonlist/
+🔗 Demo: [Moonlist](https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/2-%20moonlist/)
 
  Currency Exchanger
 Converts currencies using JavaScript.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/3-%20currency%20exchanger/
+🔗 Demo: [Currency Exchanger](https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/3-%20currency%20exchanger/)
 
  Tic Tac Toe
 A simple interactive Tic Tac Toe game built with JavaScript.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/5-%20tic%20tac%20toe/
+🔗 Demo: [Tic Tac Toe](https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/5-%20tic%20tac%20toe/)
 
  To-Do List
 Task management app that lets users add and delete tasks.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20to%20do%20list/
-
+🔗 Demo:  [To-Do List](https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20to%20do%20list/)
 🛠️ Technologies Used
 HTML5
 CSS3
