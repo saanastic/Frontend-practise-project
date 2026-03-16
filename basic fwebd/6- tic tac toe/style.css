@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eae2b7;
+    text-align: center;
+}
+.container{
+    height:70vh;
+    
+}
+.game{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 18vh 18vh 18vh;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap:2vh;
+}
+.box{
+    height:18vh;
+    width:18vh;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #003049;
+   background-color:#f0f8ff;
+   text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+
+}
+#reset{
+    padding:1rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: #fcbf49;
+    color:#003049;
+    border-radius: 1rem;
+    border:none;
+}
+#new{
+    padding:1rem;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    background-color: #fcbf49;
+    color:#003049;
+    border-radius: 1rem;
+    border:none;
+    margin-bottom:1.5rem ;
+}
+.msgc{
+    height:60vh;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    
+}
+.msg{
+    color:#d62828;
+    margin-top: 1rem;
+    font-size: x-large;
+}
+.hide{
+    display: none;
+}
+.container{
+    margin-top: 4rem;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #003049;
+    text-shadow: 2px 2px 2px white;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#msg{
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: #003049;
+    text-shadow: 2px 2px 2px white;
+    text-wrap:wrap ;
+}
+.box:hover{
+    cursor:pointer;
+    
+    animation: redt 0.2s ease-in-out forwards;
+    
+}
+.box:disabled:hover {
+  animation: none;
+}
+
+@keyframes redt{
+    from{
+        background-color:#f0f8ff;
+    }
+    to{
+        background-color: rgba(218, 86, 86, 0.7); 
+    }
+}

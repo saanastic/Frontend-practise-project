@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right bottom,#FFA4A4, #FFBDBD);
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    background-color:#FFF5F2 ;
+    border-radius: 10px;
+
+}
+.container h1{
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid silver;
+
+}
+.container form{
+    padding:20px 40px;
+}
+form .input-fields{
+    position: relative;
+    margin: 30px 0px;
+    border-bottom: 2px solid #BADFDB;
+
+}
+.input-fields{
+    position: relative;
+    margin: 30px 0;}
+.input-fields label{
+    position: absolute;
+    top:0;
+    left:5px;
+    transform: translateY(-130%);
+    pointer-events: none;
+    font-size: 16px;
+    color: #1b2322;
+
+}
+.input-fields input{
+    width: 100%;
+    padding: 1px 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-bottom:4px;
+    transition: all 0.3s;
+}
+.input-fields span{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    bottom:0px
+}
+.input-fields span::before{
+    content: "";
+   width:0;
+    height: 2px;
+    bottom:0px;
+    background-color: #ff6b6b;
+    
+}
+.input-fields input:focus ~span::before{
+    width:100%;
+}
+.input-fields input:focus ~label{
+   
+    color: rgb(19, 191, 191);
+}
+input:hover ~span{
+     width:100%;
+      background-color: #ff6b6b;
+}
+.pass{
+    margin:-5px 0 20px 5px;
+    color: #1b2322;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+.btn{
+    width:100%;
+    height:40px;
+    text-align: center;
+    border: 1px solid;
+    background-color: #ff6b6b;
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom:8px ;
+}
+.btn:hover{
+    border: 1px solid #ff6b6b;
+}
+.sign-up{
+    text-align: center;
+    margin: 30px 0px;
+     color: #1b2322;
+}
+.sign-up a{
+    text-decoration: none;
+     color: #1b2322;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}

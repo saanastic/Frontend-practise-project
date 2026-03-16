@@ -1,0 +1,36 @@
+
+#div{
+    height: 70px;
+    width:100vw;
+    background-color: rgba(43, 41, 41,0.5);
+    position:fixed;
+    display:flex;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+
+}
+.outer{
+    height:700px;
+    width:700px;
+    background-color: beige;
+    position: relative;
+    top:80px;
+    display: flex;
+    z-index: 0;
+}
+.inner{
+    height:100px;
+    width:100px;
+    background-color: rgb(227, 8, 74);
+    position: relative;
+    top:80px;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}

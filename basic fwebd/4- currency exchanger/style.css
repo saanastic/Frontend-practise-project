@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E2B4BD;
+
+}
+.container{
+    background-color: #ffffff;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height:40vh;
+    min-width: 40vh;
+}
+form{
+    margin:2em 0 1rem 0;
+}
+form select,button,input{
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius: 0.75rem;
+}
+form input{
+    border:1px solid lightgray;
+    font-size: 1rem;
+    height:2rem;
+    padding-left:1rem;
+
+}
+form input:hover:focus {
+  caret-color: black; 
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    margin-top:1rem;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    min-height: 90%;
+}
+.selectcontainer img{
+    max-width:2.5rem;
+}
+.selectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:6rem;
+    border-radius: 0.5rem;
+    border:1px solid lightgray;
+}
+.selectcontainer:hover {
+    cursor: pointer;
+}
+.selectcontainer select:hover,
+.selectcontainer select:focus {
+    cursor: pointer;
+}
+.dropdown i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.selectcontainer select{
+    font-size: 1rem;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+}
+form button{
+    box-sizing: border-box;
+   height:2rem;
+   background-color: #9b6a6c; 
+   border: none;
+   box-shadow: 0 0 0 0 #E2B4BD;
+   transition: box-shadow 0.3s ease;
+   transition:background-color 0.2s ease ;
+   color: #ffffff;
+   font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+form button:hover{
+    box-shadow: 0 0 0 2px hwb(358 42% 39%);
+    background-color:#e2b4bd98;
+    color: black;
+    text-decoration: wavy;
+   
+}
+.alert{
+    min-width: 40vh;
+   position:relative;
+   margin-top: 5rem;
+    animation-timing-function: ease;
+   animation-name: alert-anim;
+   animation-duration: 2.5s;
+   animation-iteration-count: infinite;
+}
+@keyframes alert-anim{
+    0%{
+        left:-4%;
+    }
+    50%{
+        left:7%;
+        text-decoration: double;
+    
+    }
+    100%{
+        left:-4%;
+    }
+}

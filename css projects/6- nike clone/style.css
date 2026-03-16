@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head,body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.main{
+    height:100vh;
+    width: 100%;
+    background-color: #d0d4d5;
+}
+.nav{
+    display: flex;
+    height: 90px;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li{
+    margin-right: 4rem;
+    font-size:medium;
+    font-weight:500 ;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.nav img{
+    height:60px;
+    width:auto;
+}
+.icons{
+    display: flex;
+    margin-right: 3rem;
+    font-size: 21px;
+    cursor: pointer;
+
+}
+.icons i{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+
+}
+.content{
+    height: calc(100%-90px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.content-left{
+    height:100%;
+    width:50%;
+    padding-top: 7.5%;
+    padding-left: 2.5rem;
+}
+.content-left h5{
+    font-size: 20px;
+    text-transform:capitalize;
+    color: #555;
+    margin-bottom: 10px;
+    padding-right: 15rem;
+    text-wrap: nowrap;
+}
+.content-left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+    max-width:720px;
+    line-height: 1.2;
+
+}
+.content-left p{
+    font-size: 20px;
+    color: #000;
+    width:100%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #000;
+    color:#fff;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: grab;
+
+}
+
+.content-right{
+    height: 370px;
+    width:60%;
+    padding-left: 20px;
+    margin-top: 140px;
+    padding-right: 0px;
+    margin-left: 25px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.content-right::-webkit-scrollbar{
+    display: none;
+}
+.product{
+    height:370px;
+    width:250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(17,0,17,0.2);
+    margin-right: 1.7rem;
+    display: inline-block;
+   
+}
+
+.product img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:9% ; 
+}
+.product h4{
+    font-size: 18px;
+    margin-left: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 23%;
+}
+.category{
+    font-size: 15px;
+    position: absolute;
+    bottom: 17%;
+    font-weight: 500;
+}
+.color{
+    font-size: 15px;
+    position: absolute;
+    bottom: 12%;
+    font-weight: 500;
+}
+.price{
+    font-size: 20px;
+    position: absolute;
+    bottom: 3%;
+    font-weight: 500;
+}

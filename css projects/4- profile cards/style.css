@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    
+}
+img{
+    display:inline-block;
+    max-width: 100%;
+    height:auto; 
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-color: rgb(251, 228, 246);
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(50, 30, 46);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;}
+main{
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    gap:5rem
+
+}
+footer{
+    bottom: 0;
+    background-color: rgb(50, 30, 46);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;    /* makes names horizontal */
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: beige;
+    font-weight: 600;
+}
+
+.profile a:visited {
+    color: beige;
+}
+.card{
+    scroll-margin-top: 9rem;
+    width:min(100%,350px);
+    background-color: rgb(254, 188, 204);
+    border: 2px solid rgb(26, 13, 17);
+    border-radius: 20px;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    border:5px double #333;
+    border-radius: 50%;
+
+}
+.card figcaption{
+    font-weight: bolder;
+    font-size: 2rem ;
+    margin:1rem;
+    text-align: center;
+}
+
+@media (min-width:576px){
+    main{
+        justify-content:center;
+        flex-flow: row;
+        padding:2rem;
+
+    }  
+    
+    .profile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .card{
+        width: min(100,300px);
+    }
+    }
+    .card figure{
+        flex-flow: column-reverse;
+    }
+    
+}
+@media (min-width:644px){
+    main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+    article{
+        background-color: aquamarine;
+    }
+}
