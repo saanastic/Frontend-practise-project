@@ -43,7 +43,7 @@ A simple interactive Tic Tac Toe game built with JavaScript.
 
  To-Do List
 Task management app that lets users add and delete tasks.
-🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20todo%20list/
+🔗 Demo: https://saanastic.github.io/Frontend-practise-project/basic%20fwebd/6-%20to%20do%20list/
 
 🛠️ Technologies Used
 HTML5
